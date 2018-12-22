@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon",
+    "test": "mocha -r ts-node/register src/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.27",
+    "@types/node": "^10.12.15",
+    "@types/puppeteer": "^1.11.1",
+    "koa": "^2.6.2",
+    "mocha": "^5.2.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9",
+    "puppeteer": "^1.11.0",
+    "reflect-metadata": "^0.1.12",
+    "ts-node": "^7.0.1",
+    "typeorm": "^0.2.9",
+    "typescript": "^3.2.2"
+  }
+}

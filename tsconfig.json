@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "src",
+        "outDir": "dist",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["es2015", "dom", "es2017.object"],
+        "paths": {
+
+        },
+        "pretty": true,
+        "strictNullChecks": true,
+        "downlevelIteration": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
